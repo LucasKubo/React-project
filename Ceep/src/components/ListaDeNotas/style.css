@@ -1,0 +1,14 @@
+.list-notas{
+    width: 80%;
+    padding: 0;
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-item{
+    width: 22%;
+    margin: 1%;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 10px;
+}
