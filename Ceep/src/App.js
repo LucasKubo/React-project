@@ -23,7 +23,7 @@ class App extends Component {
 
   render() {
     return (  
-      <div className="main">
+      <div className="App">
         <FormularioCadastro criarNota={this.criarNota.bind(this)}/> {/*Passando uma PROPRIEDADE para FormularioCadastro*/}
         <ListaDeNotas notas={this.state.notas}/>
       </div>

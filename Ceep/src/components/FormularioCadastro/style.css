@@ -1,12 +1,17 @@
 .formulario-cadastro{
-    width: 20%;
+    width:20%;
+    height: 40vh;
     display: flex;
     flex-direction: column;
+    align-items: unset;
+    justify-content: space-around;
 }
 .formulario-cadastro_input-titulo{
-    height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 1%;
 }
-.formulario-cadastro_textarea-descricao{
-    margin-bottom: 7px;
+.formulario-cadastro_button{
+    background-color: #D3D3D3;
+    border-radius: 4px;
+    width: 50%;
+    margin-left: 50%;
 }

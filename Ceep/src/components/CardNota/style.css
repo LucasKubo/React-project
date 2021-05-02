@@ -1,3 +1,4 @@
 .card-nota{
-    text-align: center;
+    border:2px #999999 solid;
+    border-radius: 5px;
 }

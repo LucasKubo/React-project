@@ -43,7 +43,7 @@ class FormularioCadastro extends Component {
           className="formulario-cadastro_textarea-descricao"
           onChange={this._handleGuardaDescricao.bind(this)}
         />
-        <button>Criar nota</button>
+        <button className="formulario-cadastro_button">Criar nota</button>
       </form>
     );
   }
